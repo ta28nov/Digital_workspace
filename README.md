@@ -75,53 +75,6 @@
 
 ---
 
-## 4. Cấu trúc thư mục
-
-### Backend (`BE/`)
-```
-BE/
-├── src/
-│   ├── config/
-│   ├── controllers/
-│   ├── middleware/
-│   ├── models/
-│   ├── routes/
-│   ├── services/
-│   ├── utils/
-│   └── server.js
-├── uploads/
-├── .env
-├── .env.example
-├── .gitignore
-├── package.json
-└── README.md
-```
-
-### Frontend (`FE/`)
-```
-FE/
-├── assets/
-├── src/
-│   ├── components/
-│   ├── config/
-│   ├── contexts/
-│   ├── hooks/
-│   ├── navigation/
-│   ├── screens/
-│   ├── services/
-│   ├── styles/
-│   ├── types/
-│   └── utils/
-├── .env
-├── .env.example
-├── .gitignore
-├── App.tsx
-├── babel.config.js
-├── eas.json
-├── metro.config.js
-├── package.json
-└── tsconfig.json
-```
 
 ---
 
@@ -188,25 +141,6 @@ FE/
 
 ---
 
-## 6. Tổng quan API (Backend - `/api`)
-
-- **/auth:** Đăng ký, đăng nhập, lấy thông tin người dùng
-- **/users:** Quản lý thông tin, tìm kiếm người dùng
-- **/tasks:** Danh sách, tạo, cập nhật, xóa công việc
-- **/projects:** Danh sách, tạo, cập nhật, xóa dự án, quản lý thành viên
-- **/documents:** Quản lý tài liệu (CRUD, chia sẻ, yêu thích)
-- **/forum:** Bài đăng, bình luận, tag, thích bài đăng
-- **/chats:** Danh sách chat, gửi nhận tin nhắn
-- **/notifications:** Danh sách, đánh dấu đã đọc/xóa thông báo
-
-*Chi tiết tham khảo tại `BE/README.md` hoặc source code.*
-
----
-
-## 7. Tài khoản mẫu để test
-
-- **Email:** `an.nguyen@example.com`
-- **Mật khẩu:** `123456`
 
 ---
 
